@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyFrame">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="7" y="5" width="473" height="286"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="afc07" class="javax.swing.JButton" binding="suspendSquareButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <autoscrolls value="false"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="170" height="30"/>
+          <text value="SuspendSquare"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="e9538" class="javax.swing.JButton" binding="resumeSquareButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="ResumeSquare"/>
+        </properties>
+      </component>
+      <component id="6b9d6" class="javax.swing.JButton" binding="suspendCircleButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <actionCommand value="SuspendCircle"/>
+          <preferredSize width="170" height="30"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Suspend Circle"/>
+        </properties>
+      </component>
+      <component id="b78ac" class="javax.swing.JButton" binding="resumeCircleButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <actionCommand value="ResumeCircle"/>
+          <text value="Resume Circle"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
